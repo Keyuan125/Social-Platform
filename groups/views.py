@@ -2,7 +2,7 @@ from django.shortcuts import render
 
 # Create your views here.
 from django.contrib.auth.mixins import LoginRequiredMixin, PermissionRequiredMixin
-from django.core.urls import reverse
+from django.urls import reverse
 from django.views import generic
 
 from groups.models import Group, GroupMember
